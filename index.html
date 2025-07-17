@@ -1,17 +1,59 @@
  <html>
     <head>
         <meta charset="UTF-8" />
-        <title>Test</title>
+        <title>Dragon Ball Legends Team Builder</title>
         <link rel="stylesheet" href="styles.css">
         <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
         <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
         <!-- Don't use this in production: -->
         <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
+
+            .team-grid {
+                height: 50vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .team-row {
+                height: 50%;
+                width: 100%;
+                display: flex;
+            }
+
+            .team-slot {
+                width: 15vw;
+                border: black 2px solid;
+            }
+        </style>
         <script type="text/babel">
-            
         </script>
     </head>
     <body>
+        <div class="title">
+            <h1>Dragon Ball Legends Team Builder</h1>
+        </div>
+        <div class="team-grid">
+            <div class="team-row" id="team-top-row">
+                <div class="team-slot" id="team-slot-1"></div>
+                <div class="team-slot" id="team-slot-2"></div>
+                <div class="team-slot" id="team-slot-3"></div>
+            </div>
+            <div class="team-row" id="team-bottom-row">
+                <div class="team-slot" id="team-slot-4"></div>
+                <div class="team-slot" id="team-slot-5"></div>
+                <div class="team-slot" id="team-slot-6"></div>
+            </div>
+        </div>
         <div id="root"></div>
     </body>
 </html>
