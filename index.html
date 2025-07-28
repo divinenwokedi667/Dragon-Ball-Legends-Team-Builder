@@ -1,4 +1,4 @@
- <html>
+<html>
     <head>
         <meta charset="UTF-8" />
         <title>Dragon Ball Legends Team Builder</title>
@@ -9,6 +9,7 @@
         <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
         <style>
             body {
+                background-color: darkslategrey;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -33,27 +34,49 @@
             .team-slot {
                 width: 15vw;
                 border: black 2px solid;
+                background-color: darkgrey;
+            }
+
+            .team-slot:hover {
+                filter: brightness(75%);
             }
         </style>
         <script type="text/babel">
+            function TeamBuilder() {
+                const [view, setView] = React.useState('team');
+                return (
+                    <>
+                    <div className="title">
+                        <h1>Dragon Ball Legends Team Builder</h1>
+                    </div>
+
+                    {view === 'team' ? (
+                        <div className="team-grid">
+                            <div className="team-row" id="team-top-row">
+                                <div className="team-slot" id="team-slot-1" onClick={()=>setView('edit')}></div>
+                                <div className="team-slot" id="team-slot-2" onClick={()=>setView('edit')}></div>
+                                <div className="team-slot" id="team-slot-3" onClick={()=>setView('edit')}></div>
+                            </div>
+                            <div className="team-row" id="team-bottom-row">
+                                <div className="team-slot" id="team-slot-4" onClick={()=>setView('edit')}></div>
+                                <div className="team-slot" id="team-slot-5" onClick={()=>setView('edit')}></div>
+                                <div className="team-slot" id="team-slot-6" onClick={()=>setView('edit')}></div>
+                            </div>
+                        </div>
+                    ) : (
+                        <div className="edit" onClick={()=>setView('team')}>Edit menu here</div>
+                    )}
+                    </>
+                );
+            }
+
+            function App() {
+                return <TeamBuilder />;
+            }
+            ReactDOM.createRoot(document.getElementById('root')).render(<App />);
         </script>
     </head>
     <body>
-        <!-- <div class="title">
-            <h1>Dragon Ball Legends Team Builder</h1>
-        </div> -->
-        <div class="team-grid">
-            <div class="team-row" id="team-top-row">
-                <div class="team-slot" id="team-slot-1"></div>
-                <div class="team-slot" id="team-slot-2"></div>
-                <div class="team-slot" id="team-slot-3"></div>
-            </div>
-            <div class="team-row" id="team-bottom-row">
-                <div class="team-slot" id="team-slot-4"></div>
-                <div class="team-slot" id="team-slot-5"></div>
-                <div class="team-slot" id="team-slot-6"></div>
-            </div>
-        </div>
         <div id="root"></div>
     </body>
 </html>
