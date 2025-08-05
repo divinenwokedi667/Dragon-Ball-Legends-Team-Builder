@@ -42,9 +42,10 @@
             }
         </style>
         <script type="text/babel">
+            
             function TeamBuilder() {
                 const [view, setView] = React.useState('team');
-                const [slot, setSlot] = React.useState('team-slot-1');
+                const [slot, setSlot] = React.useState(0);
                 return (
                     <>
                     <div className="title" onClick={() => setView('settings')}>
@@ -54,19 +55,19 @@
                     {view === 'team' ? (
                         <div className="team-grid">
                             <div className="team-row" id="team-top-row">
-                                <div className="team-slot" id="team-slot-1" onClick={()=>setView('edit')}></div>
-                                <div className="team-slot" id="team-slot-2" onClick={()=>setView('edit')}></div>
-                                <div className="team-slot" id="team-slot-3" onClick={()=>setView('edit')}></div>
+                                <div className="team-slot" id="team-slot-1" onClick={()=> {setView('edit'); setSlot(1);}}></div>
+                                <div className="team-slot" id="team-slot-2" onClick={()=> {setView('edit'); setSlot(2);}}></div>
+                                <div className="team-slot" id="team-slot-3" onClick={()=> {setView('edit'); setSlot(3);}}></div>
                             </div>
                             <div className="team-row" id="team-bottom-row">
-                                <div className="team-slot" id="team-slot-4" onClick={()=>setView('edit')}></div>
-                                <div className="team-slot" id="team-slot-5" onClick={()=>setView('edit')}></div>
-                                <div className="team-slot" id="team-slot-6" onClick={()=>setView('edit')}></div>
+                                <div className="team-slot" id="team-slot-4" onClick={()=> {setView('edit'); setSlot(4);}}></div>
+                                <div className="team-slot" id="team-slot-5" onClick={()=> {setView('edit'); setSlot(5);}}></div>
+                                <div className="team-slot" id="team-slot-6" onClick={()=> {setView('edit'); setSlot(6);}}></div>
                             </div>
                         </div>
                     ) : view === 'edit' ? (
                         <div className="edit">
-                            
+                            <h2>Team Slot {slot} Editor</h2>
                         </div>
                     ) : (
                         <div className="settings" onClick={() => setView('team')}>Settings menu here</div>
