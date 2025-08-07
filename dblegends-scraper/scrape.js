@@ -17,7 +17,7 @@ async function scrapeCharacter(id) {
 
         const cardNum = $('#overlaybg div.cardNUM').text().trim();
 
-        const name = $('#overlaybg > div.name, #overlaybg > #SPShallotBaseImage div.name').text().trim();
+        const name = $('#overlaybg > div.name, #overlaybg > #SPShallotBaseImage div.name, #overlaybg > #charamainimage div.name').text().trim();
 
         const image = 'https://dblegends.net/' + $('#overlaybg img.cutin').attr('src');
 
@@ -54,7 +54,7 @@ async function scrapeCharacter(id) {
 }
 
 (async () => {
-    for (let id = 1; id <= total-2; id++) {
+    for (let id = 0; id <= total-2; id++) {
         await scrapeCharacter(id);
     }
     await scrapeCharacter(19800);

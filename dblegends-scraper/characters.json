@@ -1,5 +1,24 @@
 [
   {
+    "id": 0,
+    "cardNum": "DBL01-02E",
+    "name": "Goku",
+    "image": "https://dblegends.net/assets/card_cutins/BChaCut_0000_Goku_01.webp",
+    "rarity": "EXTREME",
+    "color": "BLU",
+    "tags": [
+      "Son Family",
+      "Saiyan",
+      "Male",
+      "EXTREME",
+      "Melee Type",
+      "BLU",
+      "Saiyan Saga (Z)",
+      "Goku",
+      "Rage"
+    ]
+  },
+  {
     "id": 1,
     "cardNum": "DBL01-01H",
     "name": "Goku",
@@ -2439,7 +2458,7 @@
   {
     "id": 125,
     "cardNum": "DBL07-08S",
-    "name": "",
+    "name": "Goku",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0125_GokuK_125.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -3228,7 +3247,7 @@
   {
     "id": 164,
     "cardNum": "DBL07-07S",
-    "name": "",
+    "name": "Super Saiyan Broly",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0164_BrolyBSS1_164.webp",
     "rarity": "SPARKING",
     "color": "PUR",
@@ -3348,7 +3367,7 @@
   {
     "id": 169,
     "cardNum": "DBL-EVT-03S",
-    "name": "",
+    "name": "Trunks (Youth)",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0169_TrunksTF_169.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -3891,7 +3910,7 @@
   {
     "id": 192,
     "cardNum": "DBL10-11S",
-    "name": "",
+    "name": "Gogeta",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0192_Gtn_192.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -4495,7 +4514,7 @@
   {
     "id": 220,
     "cardNum": "DBL15-05S",
-    "name": "",
+    "name": "Goku",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0220_Goku_220.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -4629,7 +4648,7 @@
   {
     "id": 226,
     "cardNum": "DBL14-04S",
-    "name": "",
+    "name": "Trunks (Teen)",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0226_Trunks_226.webp",
     "rarity": "SPARKING",
     "color": "PUR",
@@ -4835,7 +4854,7 @@
   {
     "id": 236,
     "cardNum": "DBL15-07S",
-    "name": "",
+    "name": "Super Saiyan God SS Goku",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0236_GokuSSGSSK_236.webp",
     "rarity": "SPARKING",
     "color": "YEL",
@@ -4883,7 +4902,7 @@
   {
     "id": 238,
     "cardNum": "DBL17-01S",
-    "name": "",
+    "name": "Super Saiyan Gohan (Youth)",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0238_GohanTeenSS1_238.webp",
     "rarity": "SPARKING",
     "color": "YEL",
@@ -5207,7 +5226,7 @@
   {
     "id": 253,
     "cardNum": "DBL22-03S",
-    "name": "",
+    "name": "Piccolo",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0253_PiccoloA_253.webp",
     "rarity": "SPARKING",
     "color": "YEL",
@@ -5305,7 +5324,7 @@
   {
     "id": 257,
     "cardNum": "DBL14-01S",
-    "name": "",
+    "name": "Vegeta",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0257_Vegeta_257.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -5327,7 +5346,7 @@
   {
     "id": 258,
     "cardNum": "DBL15-01S",
-    "name": "",
+    "name": "Gohan",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0258_GohanFuture_258.webp",
     "rarity": "SPARKING",
     "color": "GRN",
@@ -5515,7 +5534,7 @@
   {
     "id": 266,
     "cardNum": "DBL18-03S",
-    "name": "",
+    "name": "Cooler",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0266_Cooler1st_266.webp",
     "rarity": "SPARKING",
     "color": "PUR",
@@ -5538,7 +5557,7 @@
   {
     "id": 268,
     "cardNum": "DBL18-01S",
-    "name": "",
+    "name": "Final Form Frieza",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0268_Frieza4th_268.webp",
     "rarity": "SPARKING",
     "color": "RED",
@@ -5947,7 +5966,7 @@
   {
     "id": 287,
     "cardNum": "DBL20-06S",
-    "name": "",
+    "name": "Super Saiyan Vegeta",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0287_VegetaSS1_287.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -6224,7 +6243,7 @@
   {
     "id": 298,
     "cardNum": "DBL21-05S",
-    "name": "",
+    "name": "Android #21: Evil",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0298_Android21_298.webp",
     "rarity": "SPARKING",
     "color": "PUR",
@@ -6392,7 +6411,7 @@
   {
     "id": 305,
     "cardNum": "DBL22-02S",
-    "name": "",
+    "name": "Bardock",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0305_BardockNoBandana_305.webp",
     "rarity": "SPARKING",
     "color": "RED",
@@ -6417,7 +6436,7 @@
   {
     "id": 306,
     "cardNum": "DBL22-08S",
-    "name": "",
+    "name": "Vegito",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0306_Vegito_306.webp",
     "rarity": "SPARKING",
     "color": "YEL",
@@ -6524,7 +6543,7 @@
   {
     "id": 311,
     "cardNum": "DBL24-15S",
-    "name": "",
+    "name": "Pikkon",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0311_Paikuhan_311.webp",
     "rarity": "SPARKING",
     "color": "RED",
@@ -6570,7 +6589,7 @@
   {
     "id": 313,
     "cardNum": "DBL23-04S",
-    "name": "",
+    "name": "Super Saiyan Gotenks",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0313_GotenksSS1_313.webp",
     "rarity": "SPARKING",
     "color": "RED",
@@ -6889,7 +6908,7 @@
   {
     "id": 326,
     "cardNum": "DBL26-02S",
-    "name": "",
+    "name": "Gohan (Adult)",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0326_GohanDBS_326.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -7059,7 +7078,7 @@
   {
     "id": 334,
     "cardNum": "DBL36-05E",
-    "name": "",
+    "name": "Gokua",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0334_Gokua_334.webp",
     "rarity": "EXTREME",
     "color": "BLU",
@@ -7222,7 +7241,7 @@
   {
     "id": 343,
     "cardNum": "DBL27-02S",
-    "name": "",
+    "name": "Goten (Kid)",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0343_GotenTeen_343.webp",
     "rarity": "SPARKING",
     "color": "YEL",
@@ -7246,7 +7265,7 @@
   {
     "id": 344,
     "cardNum": "DBL27-03S",
-    "name": "",
+    "name": "Trunks (Kid)",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0344_TrunksTeen_344.webp",
     "rarity": "SPARKING",
     "color": "GRN",
@@ -7268,7 +7287,7 @@
   {
     "id": 345,
     "cardNum": "DBL26-08S",
-    "name": "",
+    "name": "Perfect Form Cell",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0345_Cell3rd_345.webp",
     "rarity": "SPARKING",
     "color": "RED",
@@ -7294,7 +7313,7 @@
   {
     "id": 346,
     "cardNum": "DBL26-06S",
-    "name": "",
+    "name": "Vegeta",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0346_Vegeta_346.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -7385,7 +7404,7 @@
   {
     "id": 350,
     "cardNum": "DBL27-06S",
-    "name": "",
+    "name": "Goku Black",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0350_GokuBlack_350.webp",
     "rarity": "SPARKING",
     "color": "GRN",
@@ -7907,7 +7926,7 @@
   {
     "id": 381,
     "cardNum": "DBL32-04S",
-    "name": "",
+    "name": "Demon King Piccolo (Aged)",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0381_PiccoloRotor_381.webp",
     "rarity": "SPARKING",
     "color": "PUR",
@@ -8031,7 +8050,7 @@
   {
     "id": 386,
     "cardNum": "DBL33-03S",
-    "name": "",
+    "name": "Super Saiyan God SS Goku",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0386_GokuSSGSS_386.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -8569,7 +8588,7 @@
   {
     "id": 409,
     "cardNum": "DBL36-01S",
-    "name": "",
+    "name": "Super Saiyan Gohan (Youth)",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0409_GohanTeenSS1_409.webp",
     "rarity": "SPARKING",
     "color": "PUR",
@@ -8616,7 +8635,7 @@
   {
     "id": 411,
     "cardNum": "DBL36-03S",
-    "name": "",
+    "name": "Boujack",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0411_Bojack_411.webp",
     "rarity": "SPARKING",
     "color": "RED",
@@ -9319,7 +9338,7 @@
   {
     "id": 441,
     "cardNum": "DBL39-03S",
-    "name": "",
+    "name": "Gohan (Kid): Piccolo (Assist)",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0441_GohanKid_441.webp",
     "rarity": "SPARKING",
     "color": "GRN",
@@ -9473,7 +9492,7 @@
   {
     "id": 448,
     "cardNum": "DBL41-01S",
-    "name": "",
+    "name": "Super Saiyan God SS Goku & Vegeta",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0448_GokuSSGSS_448.webp",
     "rarity": "SPARKING",
     "color": "PUR",
@@ -9789,7 +9808,7 @@
   {
     "id": 460,
     "cardNum": "DBL43-05S",
-    "name": "",
+    "name": "Final Form Frieza",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0460_Frieza4th_460.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -10090,7 +10109,7 @@
   {
     "id": 472,
     "cardNum": "DBL46-01S",
-    "name": "",
+    "name": "Android #17 & Android #18",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0472_Android17_472.webp",
     "rarity": "SPARKING",
     "color": "RED",
@@ -10122,7 +10141,7 @@
   {
     "id": 473,
     "cardNum": "DBL46-02E",
-    "name": "",
+    "name": "Gohan & Trunks (Youth)",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0473_GohanF_473.webp",
     "rarity": "EXTREME",
     "color": "GRN",
@@ -10241,7 +10260,7 @@
   {
     "id": 478,
     "cardNum": "DBL47-02S",
-    "name": "",
+    "name": "Super Saiyan Vegeta",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0478_VegetaSS1_478.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -10816,7 +10835,7 @@
   {
     "id": 501,
     "cardNum": "DBL53-01S",
-    "name": "",
+    "name": "Super Saiyan 4 Goku & Vegeta",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0501_GokuSS4_501.webp",
     "rarity": "SPARKING",
     "color": "GRN",
@@ -11032,7 +11051,7 @@
   {
     "id": 514,
     "cardNum": "DBL54-03S",
-    "name": "",
+    "name": "Super Saiyan 2 & Super Saiyan God SS Trunks (Adult) & Vegeta",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0514_TrunksFutureSS2_514.webp",
     "rarity": "SPARKING",
     "color": "YEL",
@@ -11350,7 +11369,7 @@
   {
     "id": 527,
     "cardNum": "DBL56-01S",
-    "name": "",
+    "name": "Super Saiyan God SS Goku",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0527_GokuSSGSS_527.webp",
     "rarity": "SPARKING",
     "color": "GRN",
@@ -11534,7 +11553,7 @@
   {
     "id": 534,
     "cardNum": "DBL57-03S",
-    "name": "",
+    "name": "2nd Form Cell",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0534_Cell2nd_534.webp",
     "rarity": "SPARKING",
     "color": "RED",
@@ -11583,7 +11602,7 @@
   {
     "id": 536,
     "cardNum": "DBL58-01S",
-    "name": "",
+    "name": "Super Saiyan 3 & Super Saiyan 2 Goku & Vegeta",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0536_GokuSS3_536.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -11644,7 +11663,7 @@
   {
     "id": 539,
     "cardNum": "DBL59-01S",
-    "name": "",
+    "name": "Goku & Final Form Frieza",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0539_Goku_539.webp",
     "rarity": "SPARKING",
     "color": "PUR",
@@ -11680,7 +11699,7 @@
   {
     "id": 540,
     "cardNum": "DBL59-04S",
-    "name": "",
+    "name": "Jiren",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0540_Jiren_540.webp",
     "rarity": "SPARKING",
     "color": "YEL",
@@ -11908,7 +11927,7 @@
   {
     "id": 549,
     "cardNum": "DBL60-03S",
-    "name": "",
+    "name": "Gamma 1 & Gamma 2",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0549_Gamma1_549.webp",
     "rarity": "SPARKING",
     "color": "YEL",
@@ -11964,7 +11983,7 @@
   {
     "id": 551,
     "cardNum": "DBL60-02S",
-    "name": "",
+    "name": "Power Awakening Piccolo",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0551_PiccoloSHAP_551.webp",
     "rarity": "SPARKING",
     "color": "GRN",
@@ -12200,7 +12219,7 @@
   {
     "id": 560,
     "cardNum": "DBL62-01S",
-    "name": "",
+    "name": "Captain Ginyu",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0560_Ginyu_560.webp",
     "rarity": "SPARKING",
     "color": "PUR",
@@ -12224,7 +12243,7 @@
   {
     "id": 561,
     "cardNum": "DBL62-03S",
-    "name": "",
+    "name": "Jeice & Burter",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0561_Jeice_561.webp",
     "rarity": "SPARKING",
     "color": "RED",
@@ -12252,7 +12271,7 @@
   {
     "id": 562,
     "cardNum": "DBL62-02S",
-    "name": "",
+    "name": "Recoome & Guldo",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0562_Recoome_562.webp",
     "rarity": "SPARKING",
     "color": "YEL",
@@ -12309,7 +12328,7 @@
   {
     "id": 564,
     "cardNum": "DBL62-05E",
-    "name": "",
+    "name": "Gohan (Kid) & Krillin",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0564_GohanKid_564.webp",
     "rarity": "EXTREME",
     "color": "PUR",
@@ -12540,7 +12559,7 @@
   {
     "id": 573,
     "cardNum": "DBL64-02S",
-    "name": "",
+    "name": "Pikkon",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0573_Paikuhan_573.webp",
     "rarity": "SPARKING",
     "color": "GRN",
@@ -12621,7 +12640,7 @@
   {
     "id": 576,
     "cardNum": "DBL65-01S",
-    "name": "",
+    "name": "Super Saiyan God SS Evolved & Super Saiyan God SS Kaioken Vegeta & Goku",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0576_VegetaSSGSSEvo_576.webp",
     "rarity": "SPARKING",
     "color": "GRN",
@@ -12703,7 +12722,7 @@
   {
     "id": 579,
     "cardNum": "DBL65-02S",
-    "name": "",
+    "name": "Ultimate Gohan",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0579_GohanSHU_579.webp",
     "rarity": "SPARKING",
     "color": "RED",
@@ -12816,7 +12835,7 @@
   {
     "id": 583,
     "cardNum": "DBL66-01S",
-    "name": "",
+    "name": "Goku & Bardock",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0583_Goku_583.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -13458,7 +13477,7 @@
   {
     "id": 607,
     "cardNum": "DBL70-03S",
-    "name": "",
+    "name": "Nappa",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0607_Nappa_607.webp",
     "rarity": "SPARKING",
     "color": "PUR",
@@ -13487,7 +13506,7 @@
   {
     "id": 608,
     "cardNum": "DBL71-02S",
-    "name": "",
+    "name": "Super Saiyan God SS Goku & Vegeta",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0608_GokuSSGSS_608.webp",
     "rarity": "SPARKING",
     "color": "YEL",
@@ -13522,7 +13541,7 @@
   {
     "id": 609,
     "cardNum": "DBL71-01S",
-    "name": "",
+    "name": "Vegeta & Goku",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0609_Vegeta_609.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -13912,7 +13931,7 @@
   {
     "id": 624,
     "cardNum": "DBL74-03S",
-    "name": "",
+    "name": "Super Saiyan Broly",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0624_BrolyNSS1_624.webp",
     "rarity": "SPARKING",
     "color": "RED",
@@ -14042,7 +14061,7 @@
   {
     "id": 629,
     "cardNum": "DBL74-04S",
-    "name": "",
+    "name": "Piccolo & Goku",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0629_Piccolo_629.webp",
     "rarity": "SPARKING",
     "color": "RED",
@@ -14075,7 +14094,7 @@
   {
     "id": 630,
     "cardNum": "DBL74-05S",
-    "name": "",
+    "name": "Garlic Jr.",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0630_GarlicJr_630.webp",
     "rarity": "SPARKING",
     "color": "PUR",
@@ -14474,7 +14493,7 @@
   {
     "id": 646,
     "cardNum": "DBL77-03S",
-    "name": "",
+    "name": "Vegito",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0646_Vegito_646.webp",
     "rarity": "SPARKING",
     "color": "GRN",
@@ -14533,7 +14552,7 @@
   {
     "id": 648,
     "cardNum": "DBL77-05S",
-    "name": "",
+    "name": "Goku Black",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0648_GokuBlack_648.webp",
     "rarity": "SPARKING",
     "color": "YEL",
@@ -14565,7 +14584,7 @@
   {
     "id": 649,
     "cardNum": "DBL77-06S",
-    "name": "",
+    "name": "Perfect Form & Final Form Cell & Frieza",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0649_Cell3rd_649.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -14626,7 +14645,7 @@
   {
     "id": 652,
     "cardNum": "DBL78-02S",
-    "name": "",
+    "name": "Super Saiyan 2 Goku",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0652_GokuSS2_652.webp",
     "rarity": "SPARKING",
     "color": "GRN",
@@ -14796,7 +14815,7 @@
   {
     "id": 659,
     "cardNum": "DBL79-01S",
-    "name": "",
+    "name": "Super Saiyan Gohan & Trunks (Youth)",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0659_GohanFSS1_659.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -15312,7 +15331,7 @@
   {
     "id": 677,
     "cardNum": "DBL84-01S",
-    "name": "",
+    "name": "Goku",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0677_Goku_677.webp",
     "rarity": "SPARKING",
     "color": "RED",
@@ -15339,7 +15358,7 @@
   {
     "id": 678,
     "cardNum": "DBL84-03S",
-    "name": "",
+    "name": "Vegeta",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0678_Vegeta_678.webp",
     "rarity": "SPARKING",
     "color": "GRN",
@@ -15421,7 +15440,7 @@
   {
     "id": 688,
     "cardNum": "DBL83-01S",
-    "name": "",
+    "name": "Ultra Instinct -Sign- Goku",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0688_GokuUIS_688.webp",
     "rarity": "SPARKING",
     "color": "BLU",
@@ -15452,7 +15471,7 @@
   {
     "id": 689,
     "cardNum": "DBL83-04S",
-    "name": "",
+    "name": "Super Saiyan 2 Caulifla & Kale",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0689_CauliflaSS2_689.webp",
     "rarity": "SPARKING",
     "color": "YEL",
@@ -15483,7 +15502,7 @@
   {
     "id": 690,
     "cardNum": "DBL83-02S",
-    "name": "",
+    "name": "Super Saiyan God SS Vegeta",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0690_VegetaSSGSS_690.webp",
     "rarity": "SPARKING",
     "color": "PUR",
@@ -15514,7 +15533,7 @@
   {
     "id": 691,
     "cardNum": "DBL83-03S",
-    "name": "",
+    "name": "Super Saiyan Cabba",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0691_CabbeSS1_691.webp",
     "rarity": "SPARKING",
     "color": "RED",
@@ -15543,7 +15562,7 @@
   {
     "id": 692,
     "cardNum": "DBL84-02S",
-    "name": "",
+    "name": "Tien & Chiaotzu",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0692_TienShinhan_692.webp",
     "rarity": "SPARKING",
     "color": "PUR",
@@ -15570,7 +15589,7 @@
   {
     "id": 693,
     "cardNum": "DBL84-04S",
-    "name": "",
+    "name": "Nappa",
     "image": "https://dblegends.net/assets/card_cutins/BChaCut_0693_Nappa_693.webp",
     "rarity": "SPARKING",
     "color": "YEL",
