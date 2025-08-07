@@ -54,7 +54,7 @@ async function scrapeCharacter(id) {
 }
 
 (async () => {
-    for (let id = 0; id <= total-2; id++) {
+    for (let id = total-2; id >= 0; id--) {
         await scrapeCharacter(id);
     }
     await scrapeCharacter(19800);
