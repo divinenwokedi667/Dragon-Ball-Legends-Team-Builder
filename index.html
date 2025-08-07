@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Dragon Ball Legends Team Builder</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <!-- Don't use this in production: -->
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script type="text/babel">
+            
+            function TeamBuilder() {
+                const [view, setView] = React.useState('team');
+                const [slot, setSlot] = React.useState(0);
+                const [characters, setCharacters] = React.useState([]);
+                const [search, setSearch] = React.useState('');
+                const [team, setTeam] = React.useState(Array(6).fill(null))
+
+                const filteredCharacters = characters.filter(c =>
+                    c.name.toLowerCase().includes(search.toLowerCase())
+                );
+
+                React.useEffect(() => {
+                    fetch('/scraper/characters.json')
+                        .then(response => response.json())
+                        .then(data => setCharacters(data))
+                        .catch(error => console.error('Error loading character data:', error));
+                }, [])
+                return (
+                    <>
+                    <div className="title" onClick={() => setView('settings')}>
+                        <h1>Dragon Ball Legends Team Builder</h1>
+                    </div>
+
+                    {view === 'team' ? (
+                        <div className="team-grid">
+                            <div className="team-row" id="team-top-row">
+                                <div className="team-slot" id="team-slot-1" onClick={()=> {setView('edit'); setSlot(1);}}>
+                                    {team[0] && (
+                                        <div>
+                                            <img src={team[0].image} alt={team[0].name}/>
+                                            <p className="team-menu-name">{team[0].name}</p>
+                                            <p className="team-menu-rarity">{team[0].rarity}</p>
+                                        </div>
+                                    )}
+                                </div>
+                                <div className="team-slot" id="team-slot-2" onClick={()=> {setView('edit'); setSlot(2);}}>
+                                    {team[1] && (
+                                        <div>
+                                            <img src={team[1].image} alt={team[1].name}/>
+                                            <p className="team-menu-name">{team[1].name}</p>
+                                            <p className="team-menu-rarity">{team[1].rarity}</p>
+                                        </div>
+                                    )}                                </div>
+                                <div className="team-slot" id="team-slot-3" onClick={()=> {setView('edit'); setSlot(3);}}>
+                                    {team[2] && (
+                                        <div>
+                                            <img src={team[2].image} alt={team[2].name}/>
+                                            <p className="team-menu-name">{team[2].name}</p>
+                                            <p className="team-menu-rarity">{team[2].rarity}</p>
+                                        </div>
+                                    )}                                </div>
+                            </div>
+                            <div className="team-row" id="team-bottom-row">
+                                <div className="team-slot" id="team-slot-4" onClick={()=> {setView('edit'); setSlot(4);}}>
+                                    {team[3] && (
+                                        <div>
+                                            <img src={team[3].image} alt={team[3].name}/>
+                                            <p className="team-menu-name">{team[3].name}</p>
+                                            <p className="team-menu-rarity">{team[3].rarity}</p>
+                                        </div>
+                                    )}                                </div>
+                                <div className="team-slot" id="team-slot-5" onClick={()=> {setView('edit'); setSlot(5);}}>
+                                    {team[4] && (
+                                        <div>
+                                            <img src={team[4].image} alt={team[4].name}/>
+                                            <p className="team-menu-name">{team[4].name}</p>
+                                            <p className="team-menu-rarity">{team[4].rarity}</p>
+                                        </div>
+                                    )}                                </div>
+                                <div className="team-slot" id="team-slot-6" onClick={()=> {setView('edit'); setSlot(6);}}>
+                                    {team[5] && (
+                                        <div>
+                                            <img src={team[5].image} alt={team[5].name}/>
+                                            <p className="team-menu-name">{team[5].name}</p>
+                                            <p className="team-menu-rarity">{team[5].rarity}</p>
+                                        </div>
+                                    )}                                </div>
+                            </div>
+                        </div>
+                    ) : view === 'edit' ? (
+                        <div className="edit">
+                            <h2>Team Slot {slot} Editor</h2>
+                            <input 
+                                type="text"
+                                placeholder="Search characters..."
+                                value={search}
+                                onChange={(e) => setSearch(e.target.value)}
+                            />
+                            <ul className="filtered-list">
+                                {filteredCharacters.map(c => (
+                                    <li className="character-card" onClick={() => {
+                                        const newTeam = [...team];
+                                        newTeam[slot-1] = c;
+                                        setTeam(newTeam);
+                                        setView('team');
+                                    }} key={c.id}>
+                                        <img src={c.image} alt={c.name}/>
+                                        <span className="character-name">{c.name}</span> <span className="character-number">{c.cardNum}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    ) : (
+                        <div className="settings" onClick={() => setView('team')}>Settings menu here</div>
+                    )}
+                    </>
+                );
+            }
+
+            function App() {
+                return <TeamBuilder />;
+            }
+            ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+        </script>
+    </head>
+    <body>
+        <div id="root"></div>
+    </body>
+</html>
