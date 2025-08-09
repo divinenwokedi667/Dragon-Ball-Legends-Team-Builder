@@ -1,104 +1,104 @@
 body {
-    background-color: darkslategrey;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .team-grid {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .team-row {
-    height: 50%;
-    width: 100%;
-    display: flex;
+  height: 50%;
+  width: 100%;
+  display: flex;
 }
 
 .team-slot {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    width: 15vw;
-    border: black 2px solid;
-    background-color: darkgrey;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 15vw;
+  border: black 2px solid;
+  background-color: darkgrey;
 }
 
 .team-slot img {
-    height: 100%;
+  height: 100%;
 }
 
 .team-slot:hover {
-    filter: brightness(75%);
+  filter: brightness(75%);
 }
 
-.team-menu-name, .team-menu-rarity {
-    position: absolute;
-    color: white;
-    background-color: rgba(0,0,0,.6);
+.team-menu-name,
+.team-menu-rarity {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .team-menu-name {
-    bottom: 15%;
-    left: 10%;
+  bottom: 15%;
+  left: 10%;
 }
 
 .team-menu-rarity {
-    bottom: 5%;
-    left: 10%;
+  bottom: 5%;
+  left: 10%;
 }
 
 .filtered-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(10vw, 1fr));
-    gap: 1rem;
-    width: 100%;
-    max-height: 33vw;
-    overflow-y: scroll;
-    background: white;
-    overflow: scroll;
-    list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10vw, 1fr));
+  gap: 1rem;
+  width: 100%;
+  max-height: 33vw;
+  overflow-y: scroll;
+  background: white;
+  overflow: scroll;
+  list-style: none;
 }
 
 .character-card {
-    background: #f9f9f9;
-    border: 2px solid black;
-    border-radius: 8px;
-    text-align: center;
-    padding: 0.5rem;
+  background: #f9f9f9;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 .character-card:hover {
-    filter: brightness(50%);
+  filter: brightness(50%);
 }
 
 .character-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 .character-info {
-    margin-top: 0.5rem;
-    font-size: 1rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
 }
 
 .character-name {
-    display: block;
-    font-weight: bold;
+  display: block;
+  font-weight: bold;
 }
 
 .character-number {
-    display: block;
-    font-size: 0.8rem;
-    color: gray;
+  display: block;
+  font-size: 0.8rem;
+  color: gray;
 }
-
