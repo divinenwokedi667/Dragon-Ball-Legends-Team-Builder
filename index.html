@@ -14,10 +14,12 @@
                 const [slot, setSlot] = React.useState(0);
                 const [characters, setCharacters] = React.useState([]);
                 const [search, setSearch] = React.useState('');
+                const [color, setColor] = React.useState('');
                 const [team, setTeam] = React.useState(Array(6).fill(null))
 
-                const filteredCharacters = characters.filter(c =>
-                    c.name.toLowerCase().includes(search.toLowerCase())
+                const filteredCharacters = characters.filter(c => 
+                    c.name.toLowerCase().includes(search.toLowerCase()) &&
+                    c.color.toLowerCase() === color.toLowerCase()
                 );
 
                 React.useEffect(() => {
@@ -97,6 +99,15 @@
                                 value={search}
                                 onChange={(e) => setSearch(e.target.value)}
                             />
+                            <select name="colors" id="colors" onChange=
+                            {(e) => setColor(e.target.value)}>
+                                <option value="">Select a color...</option>
+                                <option value="red">RED</option>
+                                <option value="blu">BLU</option>
+                                <option value="grn">GRN</option>
+                                <option value="pur">PUR</option>
+                                <option value="yel">YEL</option>
+                            </select>
                             <ul className="filtered-list">
                                 {filteredCharacters.map(c => (
                                     <li className="character-card" onClick={() => {
