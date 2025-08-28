@@ -30,6 +30,8 @@ async function scrapeCharacter(id) {
             tags.add($(el).text().trim());
         });
 
+        const zability = $('#ZenZAbl4').text();
+
         const characterData = {
             id,
             cardNum,
@@ -37,7 +39,8 @@ async function scrapeCharacter(id) {
             image,
             rarity,
             color,
-            tags: [...tags]
+            tags: [...tags],
+            zability
         };
 
         characters.push(characterData);
