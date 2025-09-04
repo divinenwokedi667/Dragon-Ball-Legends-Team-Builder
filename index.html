@@ -16,10 +16,12 @@
                 const [search, setSearch] = React.useState('');
                 const [color, setColor] = React.useState('redblugrnpuryellgtdrk');
                 const [team, setTeam] = React.useState(Array(6).fill(null))
+                const [tag, setTag] = React.useState('')
 
                 const filteredCharacters = characters.filter(c => 
                     c.name.toLowerCase().includes(search.toLowerCase()) &&
-                    color.toLowerCase().includes(c.color.toLowerCase())
+                    color.toLowerCase().includes(c.color.toLowerCase()) &&
+                    (tag === '' || c.tags.some((t) => t.toLowerCase().includes(tag.toLowerCase())))
                 );
 
                 React.useEffect(() => {
@@ -110,6 +112,12 @@
                                 <option value="lgt">LGT</option>
                                 <option value="drk">DRK</option>
                             </select>
+                            <input 
+                                type="text"
+                                placeholder="Search by tag..."
+                                value={tag}
+                                onChange={(e) => setTag(e.target.value)}
+                            />
                             <ul className="filtered-list">
                                 {filteredCharacters.map(c => (
                                     <li className="character-card" onClick={() => {
