@@ -2,7 +2,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
 let count = 0;
-const total = 700+2;
+const total = 715+2;
 
 
 const characters = [];
